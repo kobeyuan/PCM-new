@@ -1,0 +1,1639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{da7d73b5-1368-4a8f-b16a-e6722acaab9c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{58814aee-f327-4dbb-ba82-17d7ad310222}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{2a218069-afb4-4db6-9b9f-62abc615ada3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{512899be-1d55-4b16-a858-0e9e88ce27dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{f8d64bf3-deba-4305-91c9-09403d807f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{69ceee34-d2bf-49da-a87d-6777279496c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{907531af-f4f1-4874-a3f3-2dd405074c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualize">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Basic\octree">
+      <UniqueIdentifier>{4e2048ab-1239-4ee7-a60c-2b02b971ef92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic\common">
+      <UniqueIdentifier>{8a54cade-69f8-4449-a4c7-fd5189b6a828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\multi-objects segment">
+      <UniqueIdentifier>{99c76655-2b67-4b66-af0d-290a315f6a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanning-Kinect">
+      <UniqueIdentifier>{48f4e1f1-4e88-47dc-89a8-81e3f08d7d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\StopMotion">
+      <UniqueIdentifier>{6f4dbab6-4a27-4ac6-ad89-457021e37be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\StopMotion\GrabCut">
+      <UniqueIdentifier>{5cb14cb4-4b91-456f-82ab-8da8bf77ee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\StopMotion\GrabCut\Torch">
+      <UniqueIdentifier>{96b80509-d9ad-4c34-98ec-ac94e32d416c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\StopMotion\GrabCut\Graphcut">
+      <UniqueIdentifier>{fe0e3d9d-2c4a-496d-9fbb-f34dedc3f999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\StopMotion\Expansion">
+      <UniqueIdentifier>{b89496f7-4e8d-4a1f-9c1d-076fc2796005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Blender">
+      <UniqueIdentifier>{2153f3af-7b9f-41bb-8896-8a0a18897118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\MotionSegmentation">
+      <UniqueIdentifier>{c0380be5-6458-466b-8b03-9a6a6952684d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualize\SMUI">
+      <UniqueIdentifier>{45e5b4cb-0913-4caf-917e-9ff48e6bec99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Visualize</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_main_window.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_main_window.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_main_window.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_system.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_paint_canvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_paint_canvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_canvas.cpp">
+      <Filter>Visualize</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_set.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="file_io.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="color_table.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="select_tool.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_trajectory_classifier.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_trajectory_classifier.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeformaleRegistration.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeformaleRegistration.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_properity.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_Jlinkage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_Jlinkage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_graphcuts.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_graphcuts.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="main_window.cpp">
+      <Filter>Visualize</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_paintInterface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_paintInterface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_interface.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="multiObjectSeg.cpp">
+      <Filter>Algorithm\multi-objects segment</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_multiObjectSeg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_multiObjectSeg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scanner.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scanner.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleFrameSet.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageShowWidget.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageShowWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageShowWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StopMotion.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StopMotion.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StopMotion.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleFrame.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_saveSnapshotDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\gmm.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Allocator.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Bagging.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\BayesClassifier.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\BayesClassifierMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\BeamSearchDecoder.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Boosting.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\BoostingMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ClassFormat.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ClassFormatDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ClassMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ClassNLLCriterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ClassNLLMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\CmdLine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\CmdOption.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ConnectedMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Criterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DecoderBatchTest.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DecoderSingleTest.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DecodingHMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DecodingHypothesis.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DiagonalGMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DiskDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DiskHTKDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DiskMatDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\DiskXFile.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Distribution.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\EditDistance.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\EditDistanceMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\EMTrainer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ExampleFrameSelectorDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Exp.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\FileListCmdOption.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\FrameSeg.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\FrameSegMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\FrameSelectorDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\general.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\GradientMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Grammar.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\HMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\HTKDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\InputsSelect.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOAscii.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOBin.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOBufferize.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOHTK.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOHTKTarget.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOMulti.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOSequence.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOSequenceArray.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\IOSub.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Kernel.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\KFold.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\KMeans.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\KNN.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LanguageModel.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LexiconInfo.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Linear.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LinearLexicon.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LMCache.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LMCacheEntry.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LMInteriorLevelWordEntry.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LMInteriorLevelWordList.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LMNGram.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\log_add.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LogMixer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LogRBF.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LogSigmoid.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\LogSoftMax.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Machine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MAPDiagonalGMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MAPHMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Mat.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Mat_operations.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MatDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MeanVarNorm.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Measurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MemoryDataSet.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MemoryXFile.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Mixer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MLP.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MSECriterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MSEMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MultiClassFormat.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\MultiCriterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Multinomial.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_givens.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_hessenberg.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_householder.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_low_level.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_lu_factor.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_solve.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\mx_sym_eig.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\NLLCriterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\NLLMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\NPTrainer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\NullXFile.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Object.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\OneHotClassFormat.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\OutputMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Parameters.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ParzenDistribution.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\ParzenMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Perm.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Perm_operations.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\PhoneInfo.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\PhoneModels.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\PipeXFile.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\PreProcessing.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\QCCache.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\QCMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\QCTrainer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Random.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SaturationMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Sequence.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Sigmoid.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SimpleDecoderSpeechHMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SoftMax.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SoftPlus.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SpatialConvolution.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SpatialSubSampling.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SpeechHMM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SpeechMLP.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SpeechMLPDistr.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Stack.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\StochasticGradient.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\string_stuff.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\string_utils.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SumMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SVM.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SVMCache.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SVMClassification.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\SVMRegression.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TableLookupDistribution.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Tanh.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TemporalConvolution.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TemporalMean.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TemporalSubSampling.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TimeMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Timer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Trainer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\TwoClassFormat.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Vec.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\Vocabulary.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\WeightedMSECriterion.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\WeightedSumMachine.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\WordChainElemPool.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\WordSeg.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\WordSegMeasurer.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\Torch\XFile.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\MinCut\graph.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Grabcut\MinCut\maxflow.cpp">
+      <Filter>Algorithm\StopMotion\GrabCut\Graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="DialCut.cpp">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DialCut.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DialCut.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcuts\image.cpp">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcuts\distanceMap.cpp">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSelectionPairs.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AutoSelectionPairs.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AutoSelectionPairs.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_spectral_clustering.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_spectral_clustering.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PiecewiseHomo.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PiecewiseHomo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PiecewiseHomo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\blend.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\ImageAbs.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\hb.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\blendFuncs.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\steppableLinearSolver.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\oldBlend.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender\linearSolver.cpp">
+      <Filter>Algorithm\Blender</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTexture.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DrawTexture.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DrawTexture.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_canvas.cpp">
+      <Filter>Visualize</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_canvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_canvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_StopMotionRefine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_StopMotionRefine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_StopMotionASig.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_StopMotionASig.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="imageDisplayLabel.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imageDisplayLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imageDisplayLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="co_segmentation.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="DeformableRegistration.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="GCop.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="gco-v3.0\GCoptimization.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_cut_node.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphMatching.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="multiway_propagation.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="plans_fit.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="saveSnapshotDialog.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="spectral_clustering.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="trajectory_classifier.cpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_StopMotionASig.cpp">
+      <Filter>Visualize\SMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_StopMotionRefine.cpp">
+      <Filter>Visualize\SMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_ImageScanner.cpp">
+      <Filter>Visualize\SMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_ImageScanner.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_ImageScanner.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_autoselection.cpp">
+      <Filter>Visualize\SMUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_autoselection.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_autoselection.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="newSelectionAlgo.cpp">
+      <Filter>Algorithm\StopMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newSelectionAlgo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newSelectionAlgo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="main_window.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main_window.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paint_canvas.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dlg_clustering.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_main_window.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="box.h">
+      <Filter>Geometry</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sample.h">
+      <Filter>Geometry</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sample_set.h">
+      <Filter>Geometry</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectable_item.h">
+      <Filter>Geometry</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vertex.h">
+      <Filter>Geometry</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ICP\ICP.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="color_table.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="console.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="file_io.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="file_system.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pool_allocator.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="select_tool.h">
+      <Filter>Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tool.h">
+      <Filter>Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tracer.h">
+      <Filter>Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_clustering.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ICP\J_linkage.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ICP\J_linkage_II.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ICP\T_linkage.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="octree.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sample_properity.h">
+      <Filter>Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_Jlinkage.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_J-linkageAl.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_JLinkageDlg.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_graphcuts.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dlg_graphcut.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_GraphCutsDlg.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_clustering.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main_window.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_graphcut.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_plan.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JLinkageDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_fitPlan.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="savesnapshotDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="snapshotsetting.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_paintInterface.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dlg_plan.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_paintInterface.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="basic_types.h">
+      <Filter>Basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="globals.h">
+      <Filter>Basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ICP\kdtree.hpp">
+      <Filter>Basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multiObjectSeg.h">
+      <Filter>Algorithm\multi-objects segment</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageShowWidget.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Stop-Motion.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StopMotion.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_dlg_paintInterface.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paint_interface.h">
+      <Filter>Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SingleFrame.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SingleFrameSet.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_Stop-Motion.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\gmm.h">
+      <Filter>Algorithm\StopMotion\GrabCut</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Allocator.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Bagging.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\BayesClassifier.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\BayesClassifierMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\BeamSearchDecoder.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Boosting.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\BoostingMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ClassFormat.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ClassFormatDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ClassMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ClassNLLCriterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ClassNLLMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\CmdLine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\CmdOption.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ConnectedMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Criterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DecoderBatchTest.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DecoderSingleTest.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DecodingHMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DecodingHypothesis.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DiagonalGMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DiskDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DiskHTKDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DiskMatDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\DiskXFile.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Distribution.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\EditDistance.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\EditDistanceMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\EMTrainer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ExampleFrameSelectorDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Exp.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\FileListCmdOption.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\FrameSeg.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\FrameSegMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\FrameSelectorDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\general.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\GradientMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Grammar.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\HMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\HTKDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\InputsSelect.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOAscii.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOBin.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOBufferize.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOHTK.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOHTKTarget.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOMulti.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOSequence.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOSequenceArray.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\IOSub.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Kernel.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\KFold.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\KMeans.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\KNN.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LanguageModel.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LexiconInfo.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Linear.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LinearLexicon.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\List.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LMCache.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LMCacheEntry.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LMInteriorLevelWordEntry.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LMInteriorLevelWordList.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LMNGram.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LogMixer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LogRBF.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LogSigmoid.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LogSoftMax.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\log_add.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Machine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MAPDiagonalGMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MAPHMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Mat.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MatDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\matrix.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Mat_operations.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MeanVarNorm.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Measurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MemoryDataSet.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MemoryXFile.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Mixer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MLP.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MSECriterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MSEMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MultiClassFormat.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\MultiCriterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Multinomial.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_givens.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_hessenberg.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_householder.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_low_level.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_lu_factor.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_solve.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\mx_sym_eig.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\NLLCriterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\NLLMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\NPTrainer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\NullXFile.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Object.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\OneHotClassFormat.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\OutputMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Parameters.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ParzenDistribution.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\ParzenMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Perm.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Perm_operations.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\PhoneInfo.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\PhoneModels.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\PipeXFile.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\PreProcessing.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\QCCache.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\QCMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\QCTrainer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Random.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SaturationMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Sequence.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Sigmoid.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SimpleDecoderSpeechHMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SoftMax.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SoftPlus.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SpatialConvolution.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SpatialSubSampling.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SpeechHMM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SpeechMLP.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SpeechMLPDistr.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Stack.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\StochasticGradient.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\string_stuff.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\string_utils.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SumMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SVM.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SVMCache.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SVMClassification.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\SVMRegression.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TableLookupDistribution.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Tanh.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TemporalConvolution.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TemporalMean.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TemporalSubSampling.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TimeMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Timer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Trainer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\TwoClassFormat.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Vec.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\Vocabulary.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\WeightedMSECriterion.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\WeightedSumMachine.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\WordChainElemPool.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\WordSeg.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\WordSegMeasurer.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\XFile.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\LICENSE">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\Torch\README">
+      <Filter>Algorithm\StopMotion\GrabCut\Torch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\MinCut\block.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Graphcut</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\MinCut\energy.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Graphcut</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Grabcut\MinCut\graph.h">
+      <Filter>Algorithm\StopMotion\GrabCut\Graphcut</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DialCut.h">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AutoSelectionPairs.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="graphcuts\distanceMap.h">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="graphcuts\image.h">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="jl_vectors.h">
+      <Filter>Algorithm\StopMotion\Expansion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PiecewiseHomo.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DrawTexture.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_canvas.h">
+      <Filter>Visualize</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GraphCutsDlg.ui">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Stop-Motion-Refine.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Stop-Motion-completion.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imageDisplayLabel.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+    <CustomBuild Include="trajectory_classifier.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bfs_classifier.hpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BoostGraph.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="co_segmentation.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DeformaleRegistration.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GCop.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gco-v3.0\GCoptimization.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="graph_cut_node.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GraphMatching.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InOutputDefinition.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J_linkage_Matlab.hpp">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multiway_propagation.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plans_fit.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="point2Plan_distance.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RANSAC_PLAN.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="saveSnapshotDialog.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scanner.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spectral_clustering.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="traj2AffineModel_distance.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="traj2model_distance.h">
+      <Filter>Algorithm\MotionSegmentation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_StopMotionASig.h">
+      <Filter>Visualize\SMUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_StopMotionRefine.h">
+      <Filter>Visualize\SMUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_imagesScanner.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_ImageScanner.h">
+      <Filter>Visualize\SMUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_autoKeyPas.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_autoselection.h">
+      <Filter>Visualize\SMUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newSelectionAlgo.h">
+      <Filter>Algorithm\StopMotion</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blender\blend.h">
+      <Filter>Algorithm\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender\ImageAbs.h">
+      <Filter>Algorithm\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender\steppableLinearSolver.h">
+      <Filter>Algorithm\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender\linearSolver.h">
+      <Filter>Algorithm\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender\oldBlend.h">
+      <Filter>Algorithm\Blender</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_testUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Stop-Motion-Refine.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Stop-Motion-completion.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_imagesScanner.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_autoKeyPas.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
